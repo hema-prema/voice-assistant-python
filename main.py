@@ -98,7 +98,7 @@ while True:
          lis = take_command().lower()
          city_name = lis
          try:
-             api_key = "156d3da28c586b98652b208120b9b2cf"
+             api_key = #ur api key adress
              response = requests.get(f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={api_key}")
              data = response.json()
 
