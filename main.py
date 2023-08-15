@@ -118,13 +118,13 @@ while True:
          speak("THe current time is :"+current_time)
 
     elif "email" in curious:
-         new = "awmpffzhldgoodgfdrdbwu"  # password genrated from ur yahoo account
+         new = ""  # password genrated from ur yahoo account
          with smtplib.SMTP("smtp.mail.yahoo.com") as connection:
              connection.starttls()
-             connection.login(user="hemlatayadav00@yahoo.com", password=new)
+             connection.login(user="00@yahoo.com", password=new)
              connection.sendmail(
-                 from_addr="hemlatayadav00@yahoo.com",  #  ur adress
-                 to_addrs="hemlatayadav00@yahoo.com",    # recivers adress
+                 from_addr="00@yahoo.com",  #  ur adress
+                 to_addrs="00@yahoo.com",    # recivers adress
                  msg="hello nice to hear about ur new program"
              )
              speak("Your email is sent.")
